@@ -13,7 +13,7 @@ const Navbar: React.FC<{}> = () => {
             <Image src="/HopesLogo.png" alt="logo" width={115} height={115} />
           </a>
           <div className="h-auto hidden lg:flex w-auto flex-col justify-center text-white">
-            <div className="uppercase text-[2rem] tracking-[1rem]">ope's</div>
+            <div className="uppercase text-[2rem] tracking-[1rem]">ope&apos;s</div>
             <p className="uppercase w-[100%] text-center text-[1.2rem] font-[300] tracking-[.9rem]">
               project
             </p>

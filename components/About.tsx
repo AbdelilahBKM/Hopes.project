@@ -21,10 +21,10 @@ const About: React.FC<{}> = () => {
           development.
           <br />
           <br />
-          When I'm not coding, you can find me exploring new technologies,
+          When I&apos;m not coding, you can find me exploring new technologies,
           reading about industry trends, or immersing myself in creative
           pursuits. I am driven by a relentless desire to innovate and create
-          solutions that make a meaningful impact on people's lives.
+          solutions that make a meaningful impact on people&apos;s lives.
         </p>
       </div>
     </section>
