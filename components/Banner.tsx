@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Banner: React.FC<{}> = () => {
   const text: string[] =
-    "Passionate Software Engineer with a focus on web development, dedicated to crafting elegant and user-friendly web applications.".split(
+    "Passionate Software Engineer with a focus on full stack development, dedicated to crafting elegant and user-friendly web applications.".split(
       " "
     );
     
@@ -15,7 +15,7 @@ const Banner: React.FC<{}> = () => {
         <div className="justify-center flex">
           <Image
             priority
-            src="/Me.jpeg"
+            src="/me.jpg"
             height={300}
             width={300}
             alt="Abdelilah"

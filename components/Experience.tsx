@@ -30,7 +30,7 @@ const Experience: React.FC<{}> = () => {
         <div className="text-gray-300">
           <div className="font-semibold pt-5">Description:</div>
           <p className="pt-5">
-            DevHire is a platform designed to bridge the gap between students,
+            DevHire is a platform with the idea of bridging the gap between students,
             graduates, and software engineering opportunities. Inspired by
             popular job search websites like Indeed, this project serves as a
             mock-up platform aimed at helping aspiring software engineers
@@ -44,7 +44,7 @@ const Experience: React.FC<{}> = () => {
           <div className="font-semibold">Challenges Faced:</div>
           <ul className="pl-5 pt-5 list-disc">
             <li className="">
-              Designing an intuitive user interface that caters to both job
+              Designing an intuitive user interface that appeals to both job
               seekers and companies.
             </li>
             <li className="pt-5">
@@ -82,7 +82,7 @@ const Experience: React.FC<{}> = () => {
           <div className="font-semibold pt-5">Status:</div>
           <p className="pt-5">
             This project is a work in progress and serves as a learning
-            experience to improve my full-stack development skills. While it's
+            experience to improve my full-stack development skills. While it&apos;s
             not fully completed, it demonstrates my ability to build functional
             web applications using a variety of technologies.
             <br />
@@ -90,7 +90,7 @@ const Experience: React.FC<{}> = () => {
           </p>
         </div>
         <div className="text-gray-300">
-          <div className="font-semibold">GitHub Repository:</div>
+          <div className="font-semibold">GitHub Repositories:</div>
           <ul className="pl-5 pt-5 list-disc">
             <li className="">
               <Link

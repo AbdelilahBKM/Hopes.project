@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion, useScroll } from "framer-motion";
 
 const Technologies: React.FC<{}> = () => {
+  const ref = useRef<HTMLElement>(null);
+  
   return (
-    <section
+    <section ref={ref}
       id="technologies"
       className="flex flex-col items-center justify-center h-full relative overflow-hidden pt-[35px] "
-      style={{ transform: "scale(0.9" }}
     >
       <div className="flex flex-col justify-around flex-wrap items-center max-w-[900px]">
         <h1 className="text-white font-semibold text-6xl">
@@ -25,7 +27,7 @@ const Technologies: React.FC<{}> = () => {
                 width={250}
                 height={250}
               ></Image>
-              <Link href={"https://www.typescriptlang.org/"} className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              <Link target="_blank" href={"https://www.typescriptlang.org/"} className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
                 Typescript
               </Link>
             </div>
@@ -36,7 +38,7 @@ const Technologies: React.FC<{}> = () => {
                 width={250}
                 height={250}
               ></Image>
-              <Link href={"https://react.dev/"} className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              <Link target="_blank" href={"https://react.dev/"} className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
                 React
               </Link>
             </div>
@@ -47,7 +49,7 @@ const Technologies: React.FC<{}> = () => {
                 width={250}
                 height={250}
               ></Image>
-              <Link href={"https://tailwindcss.com/"} className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
+              <Link target="_blank" href={"https://tailwindcss.com/"} className="bg-transparent  mt-5 mr-2 cursor-pointer  rounded-3xl  text-white py-2 px-5  border border-[#2E2E2E] w-max">
                 Tailwindcss
               </Link>
             </div>
