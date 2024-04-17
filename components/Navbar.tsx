@@ -10,7 +10,7 @@ const Navbar: React.FC<{}> = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <div className="flex">
           <a href="/" className="h-auto w-auto flex flex-row items-center">
-            <Image src={"/logo/HopesLogo.png"} alt="logo" width={115} height={115} />
+            <Image src={"/logo/h_logo.png"} alt="logo" width={115} height={115} />
           </a>
           <div className="h-auto hidden lg:flex w-auto flex-col justify-center text-white">
             <div className="uppercase text-[2rem] tracking-[1rem]">ope&apos;s</div>
