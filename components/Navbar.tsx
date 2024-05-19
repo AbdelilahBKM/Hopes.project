@@ -28,7 +28,7 @@ const Navbar: React.FC<{}> = () => {
             About me
           </Link>
           <div
-            onClick={() => window.open("mailto:")}
+            onClick={() => window.open("mailto:boukhatem.abdelilah@outlook.com")}
             className=" z-[1] bg-white text-black  padding-10 cursor-pointer hover:bg-black border hover:border-white hover:text-white rounded-xl  py-2 px-5 transition"
           >
             Contact

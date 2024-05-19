@@ -37,7 +37,7 @@ const Footer: React.FC<{}> = () => {
         >
           Ibrahim Memon
         </Link>{" "}
-        and coded in Visual Studio Code by Yours truly. Built with Next.js and
+        and coded in Visual Studio Code by Abdelilah. Built with Next.js and
         Tailwind CSS, deployed with Vercel. All text is set in the Inter
         typeface
       </p>
