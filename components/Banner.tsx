@@ -27,10 +27,10 @@ const Banner: React.FC<{}> = () => {
           Boukhatem Abdelilah
         </div>
         <div className="flex justify-center">
-          <p className="text-2xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
-            You can call me{" "}
+          <p className="text-xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
+            And this is my personal {" "}
             <span className="text-transparent font-semibold  bg-clip-text bg-gradient-to-r from-purple-500 to-orange-400 pl-3 uppercase tracking-widest">
-              Hope
+              Portfolio
             </span>
           </p>
         </div>
