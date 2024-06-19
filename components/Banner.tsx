@@ -24,7 +24,7 @@ const Banner: React.FC<{}> = () => {
         </div>
 
         <div className="flex flex-col gap-6 mt-6 cursor-pointer tracking-tighter text-7xl font-semibold text-white max-w-[600px] w-auto h-auto">
-          Boukhatem Abdelilah
+          Abdelilah
         </div>
         <div className="flex justify-center">
           <p className="text-xl font-medium tracking-tighter  text-gray-300 max-w-[600px]">
